@@ -58,7 +58,7 @@ const RESOURCES = {
 "assets/images/svg/tennis-svgrepo-com.svg": "86739043811b11868ef18b82458d8b6e",
 "assets/images/svg/tools-svgrepo-com.svg": "8e1b903e3c34d334c307b8c8ece4f921",
 "assets/images/svg/woman-avatar-1.svg": "7e8ded6a4695f6dbe18f63dd24b19cd7",
-"assets/NOTICES": "6fd93544b7497daba2608696a339ac72",
+"assets/NOTICES": "684b7184253eb69f8699ad0f220e1bca",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flutter_dropzone_web/assets/flutter_dropzone.js": "293130157c75eed869a41f5e53c1b313",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "b37ae0f14cbc958316fac4635383b6e8",
@@ -74,9 +74,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/ic_launcher.png": "41cc3beaa663c89ec59216832485bc96",
 "icons/ms-icon-310x310.png": "1e3ed29f39b2e36dd2ba73877666e4ec",
-"index.html": "27724a33a87b01d7d682ad1d41426b5d",
-"/": "27724a33a87b01d7d682ad1d41426b5d",
-"main.dart.js": "016a8a6d4f5f05cc79d051e465cdcbcb",
+"index.html": "8e6c380987b0a7dd7ebb19a0b9c3308d",
+"/": "8e6c380987b0a7dd7ebb19a0b9c3308d",
+"main.dart.js": "b41838acc97cd897e8d678d93bb0f707",
 "manifest.json": "ccfc140e0166b78756860f9cf85b6613",
 "version.json": "f186289b41379a96f097ff42daa34ee4"
 };
