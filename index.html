@@ -12,7 +12,7 @@
     For more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <base href=".">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -68,7 +68,7 @@
   </script>
 
   <script>
-    var serviceWorkerVersion = '3621929588';
+    var serviceWorkerVersion = '3684782106';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -126,6 +126,12 @@
           }
         }, 4000);
       });
+      navigator.serviceWorker.register('../firebase-messaging-sw.js')
+        .then(function (registration) {
+          console.log('Registration successful, scope is:', registration.scope);
+        }).catch(function (err) {
+          console.log('Service worker registration failed, error:', err);
+        });
     } else {
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
