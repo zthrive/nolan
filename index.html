@@ -55,23 +55,23 @@
     // const { initializeApp } = require("firebase/app");
     // const { initializeAppCheck, ReCaptchaV3Provider } = require("firebase/app-check");
 
-    // let firebaseConfig = {
-    //   apiKey: "AIzaSyA_B4DLDQApDa0us4gi-58sk_aLMGgFWdI",
-    //   authDomain: "nolan-2bb99.firebaseapp.com",
-    //   databaseURL: "https://nolan-2bb99.firebaseio.com",
-    //   projectId: "nolan-2bb99",
-    //   storageBucket: "nolan-2bb99.appspot.com",
-    //   messagingSenderId: "471437598597",
-    //   appId: "1:471437598597:web:694bd6b998c03caa40aeec",
-    //   measurementId: "G-WK8ZGC3DSR"
-    // };
+    let firebaseConfig = {
+      apiKey: "AIzaSyA_B4DLDQApDa0us4gi-58sk_aLMGgFWdI",
+      authDomain: "nolan-2bb99.firebaseapp.com",
+      databaseURL: "https://nolan-2bb99.firebaseio.com",
+      projectId: "nolan-2bb99",
+      storageBucket: "nolan-2bb99.appspot.com",
+      messagingSenderId: "471437598597",
+      appId: "1:471437598597:web:694bd6b998c03caa40aeec",
+      measurementId: "G-WK8ZGC3DSR"
+    };
 
 
 
     // // Initialize Firebase
-    // const app = firebase.initializeApp(firebaseConfig);
+    const app = firebase.initializeApp(firebaseConfig);
 
-    // console.log('After InitialiseApp  .... ');
+    console.log('After InitialiseApp  .... ');
 
    // const appCheck = firebase.appCheck();
     // Pass your reCAPTCHA v3 site key (public key) to activate(). Make sure this
@@ -91,7 +91,7 @@
   </script>
 
   <script>
-    var serviceWorkerVersion = '3359512450';
+    var serviceWorkerVersion = '4011099993';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
